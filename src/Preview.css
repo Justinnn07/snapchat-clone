@@ -9,3 +9,42 @@
   color: white;
   margin: 5px;
 }
+
+.preview-rightIcons {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin: 5px;
+}
+
+.preview-rightIcons > .MuiSvgIcon-root {
+  font-size: 20px !important;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.previewFooter {
+  position: absolute;
+  bottom: 0;
+  background-color: yellow;
+  right: -25px;
+  transform: translate(-50%, -50%);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.previewFooter > h2 {
+  font-size: 8px;
+  margin-right: 3px;
+}
+
+.previewSend {
+  font-size: 10px !important;
+}
